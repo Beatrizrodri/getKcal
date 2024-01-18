@@ -52,6 +52,5 @@ function getSelectedValue(id) {
 }
 
 function getInputNumberValue(id) {
-  console.log(Number(document.getElementById(id).value))
   return Number(document.getElementById(id).value)
 }
